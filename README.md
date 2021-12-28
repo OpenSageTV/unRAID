@@ -1,2 +1,2 @@
 # unRAID
-unRAID Templates for SageTV
+unRAID Templates
