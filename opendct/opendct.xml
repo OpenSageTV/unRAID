@@ -2,8 +2,8 @@
 <Containers>
     <Beta>False</Beta>
     <Category>MediaServer:Video</Category>
-    <Date>2017-01-08</Date>
-    <Name>crazifuzzy-opendct</Name>
+    <Date>2021-01-06</Date>
+    <Name>sagetvopen-opendct</Name>
     <Description>
         An open source digital cable tuner network encoder for SageTV.
     </Description>
@@ -11,9 +11,11 @@
         An open source digital cable tuner network encoder for SageTV.
     </Overview>
     <Support>https://forums.sagetv.com/forums/showthread.php?t=62774</Support>
-    <Registry>https://hub.docker.com/r/crazifuzzy/opendct/</Registry>
-    <GitHub>https://github.com/crazifuzzy/opendct-docker/</GitHub>
-    <Repository>crazifuzzy/opendct</Repository>
+    <Registry>https://hub.docker.com/r/sagetvopen/opendct/</Registry>
+	<DonateText>Support me on Patreon</DonateText>
+    <DonateLink>https://www.patreon.com/user?u=58035567</DonateLink>
+    <GitHub>https://github.com/opensagetv/opendct-docker/</GitHub>
+    <Repository>sagetvopen/opendct</Repository>
     <BindTime>true</BindTime>
     <Privileged>true</Privileged>
     <Networking>
@@ -44,8 +46,8 @@
         </Variable>
     </Environment>
     <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-    <Banner>https://raw.githubusercontent.com/OpenSageTV/sagetv-miniclient/master/playstore/ic_launcher-web.png</Banner>
-    <Icon>https://raw.githubusercontent.com/OpenSageTV/sagetv-miniclient/master/playstore/ic_launcher-web.png</Icon>
+    <Banner>https://raw.githubusercontent.com/OpenSageTV/sagetv-dockers/master/resources/SageTVOS_icon.png</Banner>
+    <Icon>https://raw.githubusercontent.com/OpenSageTV/sagetv-dockers/master/resources/SageTVOS_icon.png</Icon>
     <Project>http://forums.sagetv.com</Project>
     <ExtraParams></ExtraParams>
 
